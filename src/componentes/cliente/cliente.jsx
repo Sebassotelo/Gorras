@@ -6,16 +6,16 @@ function Cliente() {
   const navigate = useNavigate();
   return (
     <div className="cliente">
-      <p onClick={() => navigate("SrasMedias")} className="cliente__title">
-        <p>Tienda de Sras Medias</p>
+      <p onClick={() => navigate("gorras")} className="cliente__title">
+        <p>Nuestras Gorras</p>
       </p>
 
-      <div onClick={() => navigate("SrasMedias")} className="cliente__img">
-        <img src="https://i.imgur.com/AOjZcSv.jpg" alt="" />
+      <div onClick={() => navigate("gorras")} className="cliente__img">
+        <img src="https://i.imgur.com/aSojXsS.png" alt="" />
       </div>
 
-      <div className="cliente__info" onClick={() => navigate("SrasMedias")}>
-        <h3>🛸 E S T A M O S EN EL F U T U R O</h3>
+      <div className="cliente__info" onClick={() => navigate("gorras")}>
+        <h3>Tu Gorra Ideal</h3>
       </div>
     </div>
   );

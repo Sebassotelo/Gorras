@@ -58,7 +58,7 @@ function MenuView() {
     llamada();
     onAuthStateChanged(context.auth, inspectorSesion);
     window.scroll(0, 0);
-    document.title = `SrasMedias`;
+    document.title = `Tus Gorras`;
   }, []);
 
   const inspectorSesion = (usuarioFirebase) => {

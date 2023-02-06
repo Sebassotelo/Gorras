@@ -32,7 +32,7 @@ function HomeView() {
     setEstadoUsuario(0);
     onAuthStateChanged(context.auth, inspectorSesion);
     console.log("estado usuario", context.estadoUsuario);
-    document.title = "SrasMedias";
+    document.title = "Gorras";
     window.scroll(0, 0);
   }, []);
 
@@ -84,13 +84,9 @@ function HomeView() {
         <div className="header__container">
           <div className="header__title">
             <div className="title__div">
-              <img
-                className="title__img"
-                src="https://i.imgur.com/Us77N0f.png"
-                alt=""
-              />
+              <h1 className="title__h1">Tus Gorras</h1>
             </div>
-            <p className="title__p"> 🛸 E S T A M O S EN EL F U T U R O</p>
+            <p className="title__p"> T U S G O R R A S</p>
             <p className="title__p"> ⚡P I C K U P ⚡</p>
           </div>
           {/* <div className="header__img">
@@ -137,7 +133,7 @@ function HomeView() {
       </section>
 
       <section id="medias" className="home__clientes">
-        <h3 className="about__h3">Nuestras Medias</h3>
+        <h3 className="about__h3">Nuestras Gorras</h3>
         <Cliente />
       </section>
     </div>

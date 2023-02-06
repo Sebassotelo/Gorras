@@ -60,7 +60,7 @@ function NavbarNoAuth() {
             smooth={true}
             duration={500}
           >
-            Medias
+            Gorras
           </Link>
         </ul>
       </div>
@@ -97,7 +97,7 @@ function NavbarNoAuth() {
                 duration={500}
                 onClick={() => setShow(false)}
               >
-                Medias
+                Gorras
               </Link>
             </ul>
             <VscClose
