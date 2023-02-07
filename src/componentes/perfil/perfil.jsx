@@ -18,7 +18,7 @@ function Perfil() {
             <div className="logo">
               {foto !== "generico" ? (
                 <img
-                  src={context.infoPublica.urlFoto}
+                  src="https://i.imgur.com/iK7ZL8i.jpg"
                   alt=""
                   className="logo__img"
                 />
