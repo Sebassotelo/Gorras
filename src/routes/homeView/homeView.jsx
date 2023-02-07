@@ -84,7 +84,11 @@ function HomeView() {
         <div className="header__container">
           <div className="header__title">
             <div className="title__div">
-              <h1 className="title__h1">Tus Gorras</h1>
+              <img
+                className="title__img"
+                src="https://i.imgur.com/imJ6UbQ.png"
+                alt=""
+              />
             </div>
             <p className="title__p"> T U S G O R R A S</p>
           </div>
