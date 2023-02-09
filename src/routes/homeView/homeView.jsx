@@ -86,7 +86,7 @@ function HomeView() {
             <div className="title__div">
               <img
                 className="title__img"
-                src="https://i.imgur.com/imJ6UbQ.png"
+                src="https://i.imgur.com/57RsKQS.png"
                 alt=""
               />
             </div>

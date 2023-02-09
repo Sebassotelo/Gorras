@@ -18,7 +18,7 @@ function Perfil() {
             <div className="logo">
               {foto !== "generico" ? (
                 <img
-                  src="https://i.imgur.com/6ZxDJYS.jpg"
+                  src="https://i.imgur.com/fXHIcxa.jpg"
                   alt=""
                   className="logo__img"
                 />
