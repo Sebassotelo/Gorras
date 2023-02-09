@@ -23,6 +23,7 @@
   padding: 15px;
   border-radius: 15px;
   position: relative;
+  cursor: pointer;
 }
 
 .confirmacion__premium__icon {

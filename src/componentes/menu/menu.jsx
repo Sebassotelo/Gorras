@@ -49,36 +49,33 @@ function Menu() {
         {menu &&
           menu.map((item, i) => {
             return (
-              <div id={item.seccion}>
-                <p className="menu__title" id="burger">
-                  {item.seccion}:
-                </p>
-                <div className="menu__seccionItems">
-                  {item.seccionItems &&
-                    item.seccionItems.map((item, i) => {
-                      return (
-                        <>
-                          <MenuItem
-                            title={item.title}
-                            precio={item.precio}
-                            desc={item.desc}
-                            img={item.img}
-                            id={item.id}
-                          />
-                          {/* {item.stock > 0 && (
-                            <MenuItem
-                              title={item.title}
-                              precio={item.precio}
-                              desc={item.desc}
-                              img={item.img}
-                              id={item.id}
-                            />
-                          )} */}
-                        </>
-                      );
-                    })}
-                </div>
-              </div>
+              <>
+                {item.seccionItems.find((item, i) => item.stock > 0) && (
+                  <div id={item.seccion}>
+                    <p className="menu__title" id="burger">
+                      {item.seccion}:
+                    </p>
+                    <div className="menu__seccionItems">
+                      {item.seccionItems &&
+                        item.seccionItems.map((item, i) => {
+                          return (
+                            <>
+                              {item.stock > 0 && (
+                                <MenuItem
+                                  title={item.title}
+                                  precio={item.precio}
+                                  desc={item.desc}
+                                  img={item.img}
+                                  id={item.id}
+                                />
+                              )}
+                            </>
+                          );
+                        })}
+                    </div>
+                  </div>
+                )}
+              </>
             );
           })}
       </div>
