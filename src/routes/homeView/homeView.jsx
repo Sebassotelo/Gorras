@@ -117,7 +117,7 @@ function HomeView() {
           <Tarjeta
             numero={1}
             title={"Buscar el Producto"}
-            desc={"Elige las medias que quieras"}
+            desc={"Elige las gorras que quieras"}
             extra={
               <p className="tarjeta__catalogo" onClick={navigateValha}>
                 Ir al Catalogo
