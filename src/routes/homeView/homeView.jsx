@@ -32,7 +32,7 @@ function HomeView() {
     setEstadoUsuario(0);
     onAuthStateChanged(context.auth, inspectorSesion);
     console.log("estado usuario", context.estadoUsuario);
-    document.title = "SG Gorras";
+    document.title = "Valha Gorras - Planas y Trucker";
     window.scroll(0, 0);
   }, []);
 
@@ -67,6 +67,10 @@ function HomeView() {
   4 = Usuario Premium
   */
 
+  const navigateValha = () => {
+    navigate("/Valha");
+  };
+
   return (
     <div className="home">
       {/* {context.estadoUsuario > 0 ?  : ""} */}
@@ -90,7 +94,11 @@ function HomeView() {
                 alt=""
               />
             </div>
-            <p className="title__p"> T U S G O R R A S</p>
+            <p className="title__p">🧢 V A L H A G O R R A S 🧢</p>
+
+            <p className="title__catalogo" onClick={navigateValha}>
+              IR AL CATALOGO
+            </p>
           </div>
           {/* <div className="header__img">
             <img src="https://i.imgur.com/DYPel8f.png" alt="" />
@@ -110,6 +118,11 @@ function HomeView() {
             numero={1}
             title={"Buscar el Producto"}
             desc={"Elige las medias que quieras"}
+            extra={
+              <p className="tarjeta__catalogo" onClick={navigateValha}>
+                Ir al Catalogo
+              </p>
+            }
           />
           <Tarjeta
             numero={2}
