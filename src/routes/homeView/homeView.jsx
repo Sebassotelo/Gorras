@@ -32,7 +32,7 @@ function HomeView() {
     setEstadoUsuario(0);
     onAuthStateChanged(context.auth, inspectorSesion);
     console.log("estado usuario", context.estadoUsuario);
-    document.title = "Valha Gorras - Planas y Trucker";
+    document.title = "Black Beard | Gorras Planas y Trucker";
     window.scroll(0, 0);
   }, []);
 
