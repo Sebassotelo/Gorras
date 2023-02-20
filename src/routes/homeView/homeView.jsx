@@ -94,7 +94,7 @@ function HomeView() {
                 alt=""
               />
             </div>
-            <p className="title__p">🧢 V A L H A G O R R A S 🧢</p>
+            <p className="title__p">🧢 B L A C K - B E A R D 🧢</p>
 
             <p className="title__catalogo" onClick={navigateValha}>
               IR AL CATALOGO
