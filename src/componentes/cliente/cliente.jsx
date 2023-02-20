@@ -5,20 +5,20 @@ import { useNavigate } from "react-router-dom";
 function Cliente() {
   const navigate = useNavigate();
 
-  const navigateValha = () => {
-    navigate("/Valha");
+  const navigateBB = () => {
+    navigate("/BB");
   };
   return (
     <div className="cliente">
-      <p onClick={navigateValha} className="cliente__title">
+      <p onClick={navigateBB} className="cliente__title">
         <p>CATALOGO</p>
       </p>
 
-      <div onClick={navigateValha} className="cliente__img">
+      <div onClick={navigateBB} className="cliente__img">
         <img src="https://i.imgur.com/aSojXsS.png" alt="" />
       </div>
 
-      <div className="cliente__info" onClick={() => navigate("gorras")}>
+      <div className="cliente__info" onClick={navigateBB}>
         <h3>Tu Gorra Ideal</h3>
       </div>
     </div>

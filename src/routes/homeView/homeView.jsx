@@ -68,7 +68,7 @@ function HomeView() {
   */
 
   const navigateValha = () => {
-    navigate("/Valha");
+    navigate("/BB");
   };
 
   return (
