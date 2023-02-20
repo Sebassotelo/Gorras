@@ -79,7 +79,7 @@ function MenuItem({ title, precio, id, img, desc, stock }) {
         {showImg ? (
           <div
             onClick={showPopUp}
-            className="item__img"
+            className="item__img__account"
             style={{ backgroundImage: `url(${img})` }}
           ></div>
         ) : null}

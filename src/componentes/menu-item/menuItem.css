@@ -29,6 +29,7 @@
   border-radius: 15px;
   background-size: cover;
   background-position: center;
+  background-position-x: center;
   background-repeat: no-repeat;
   cursor: pointer;
 }
